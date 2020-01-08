@@ -20,7 +20,7 @@
             <TextBlock Classes="h1" Text="Enter name below"/>
         </StackPanel>
         
-        <TextBox Text="{Binding Detail}" AcceptsReturn="True"/>
+        <TextBox Width="200" Text="{Binding Detail}" AcceptsReturn="True"/>
         <Button Grid.Row="1" Command="{Binding ButtonCommand}">Update</Button>
         
         <StackPanel Orientation="Vertical" Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center">
